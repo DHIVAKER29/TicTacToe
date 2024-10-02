@@ -3,8 +3,7 @@ package strategies.botPlayingStrategy;
 import models.Board;
 import models.Move;
 
-public class MediumBotPlayingStrategy {
-}public class MediumBotPlayingStrategy implements BotPlayingStrategy {
+public class MediumBotPlayingStrategy implements BotPlayingStrategy {
     @Override
     public Move makeMove(Board board) {
         return null;

@@ -1,3 +1,4 @@
+import controller.GameController;
 import models.*;
 import strategies.winningStrategy.ColWinningStrategy;
 import strategies.winningStrategy.DiagonalWinningStrategy;
@@ -13,11 +14,11 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) throws InvalidBotCountException, InvalidPlayerCountException, InvalidMoveException {
-        System.out.println("Hello world!");
+        System.out.println("Hello Dhivaker!");
 
         int dimension = 3;
         List<Player> players = new ArrayList<>();
-        players.add(new Player("Sasi", new Symbol('X'), PlayerType.HUMAN));
+        players.add(new Player("Dhivaker", new Symbol('X'), PlayerType.HUMAN));
         players.add(new Bot("Scaler", new Symbol('O'), BotDifficultyLevel.EASY));
 
         List<WinningStrategy> winningStrategies = List.of(

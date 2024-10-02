@@ -1,6 +1,9 @@
 package models;
 
 
+import Factory.BotPlayingStrategyFactory;
+import strategies.botPlayingStrategy.BotPlayingStrategy;
+
 public class Bot extends Player {
     private BotDifficultyLevel botDifficultyLevel;
     private BotPlayingStrategy botPlayingStrategy;
